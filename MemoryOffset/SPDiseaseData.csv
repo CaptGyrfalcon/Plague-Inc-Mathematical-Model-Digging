@@ -1,4 +1,4 @@
-Index,Name,Offset
+Index,Name,Type,Offset
 0,id,System.Int32,0
 1,_evoPoints,System.Int32,4
 2,_closedBordersSpreadEnhance,System.Int32,8

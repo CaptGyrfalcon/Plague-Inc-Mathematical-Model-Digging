@@ -1,4 +1,4 @@
-Index,Name,Offset
+Index,Name,Type,Offset
 0,countryNumber,System.Int32,0
 1,diseaseID,System.Int32,4
 2,killedPopulation,System.Int64,8

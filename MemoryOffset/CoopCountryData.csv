@@ -1,4 +1,4 @@
-Index,Name,Offset
+Index,Name,Type,Offset
 0,countryNumber,System.Int32,0
 1,closedBorderOpacity,System.Double,8
 2,_airport,System.Int32,16
