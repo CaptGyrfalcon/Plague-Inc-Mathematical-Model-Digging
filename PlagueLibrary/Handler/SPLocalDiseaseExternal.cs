@@ -20,3 +20,6 @@ public static void LocalDiseaseUpdateFourth_Vampire(SPLocalDiseaseData ld, SPCou
 public static bool SeaTransfer_Vampire(SPDiseaseData d, SPLocalDiseaseData ld, SPCountryData source, SPLocalDiseaseData td, SPCountryData destination);
 public static bool AirTransfer_Vampire(SPDiseaseData d, SPLocalDiseaseData ld, SPCountryData source, SPLocalDiseaseData td, SPCountryData destination);
 public static bool LandTransfer_Vampire(SPDiseaseData d, SPLocalDiseaseData ld, SPCountryData source, SPLocalDiseaseData td, SPCountryData destination, int landRoutesMult);
+//Only called in PlagueExternal.dll, no handler call from csharp assembly
+public static bool LocalZombieUpdate(SPLocalDiseaseData ld, SPCountryData c, SPDiseaseData d);
+public static bool LocalSimianUpdate(SPLocalDiseaseData ld, SPCountryData c, SPDiseaseData d);
